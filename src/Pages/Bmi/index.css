@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.app{
+  display:flex;
+  width: 100%;
+  height: calc(100vh - 110px);
+  background-color: black;
+  justify-content: center;
+
+}
+
+.container {
+  position: relative;
+  top:20%;
+  box-shadow: 15px 15px 12px #ffffff54;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: aliceblue;
+  height: 400px;
+  
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 8px 4px;
+  margin: 8px 0;
+  border-radius: 8px;
+  }
+  
+.btn {
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  margin: 8px 0;
+  padding: 10px 0;
+  background-color: #ff0000;
+  color: #fff;
+  border: 1px solid #eedfdf;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover{
+    color:rgb(143, 5, 5);
+}
+
+.center {
+  text-align: center;
+  margin: 24px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.img-container img {
+  height: 200px;
+}
+
+
+body {
+  margin: 0;
+  font-family:'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+
