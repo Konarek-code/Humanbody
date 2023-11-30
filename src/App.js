@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 
-import Footer from './Additionalcomponents/Footer.js';
+import Footer from './Additionalcomponents/Footer/Footer.js';
 import NavBar from './Additionalcomponents/Navbar/Navb.js';
 import './App.css';
 import Bmi from './Pages/Bmi/Bmi';
@@ -24,7 +24,7 @@ import Shouldersw from './Pages/exercises/Shouldersw';
 import Tights from './Pages/exercises/Tights';
 import Traps from './Pages/exercises/Traps';
 import Triceps from './Pages/exercises/Triceps';
-import Home from './Pages/Home.js';
+import Home from './Pages/Homescreen/Home.js';
 import Lvl from './Pages/Quizz/Quizcheck.js';
 
 function App() {

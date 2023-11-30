@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
 
+import './Exercisesstyle.css';
 import Buttongroup from '../../Additionalcomponents/Buttons/Buttongroup.js';
 import charizard from '../../images/charizard.svg';
 import charmander from '../../images/charmanderlvl.png';

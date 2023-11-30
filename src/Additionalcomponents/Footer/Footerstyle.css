@@ -1,0 +1,23 @@
+footer {
+    background-color: #0e0202;
+    color: #be0101;
+    text-align: center;
+  }
+  
+  .footer-content {
+    background-color: black;
+    display: flex;
+    color: #c9c9c2;
+    align-items:center;
+    justify-content: space-between;
+    border: 2px solid rgba(255, 0, 0, 0.356);
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin: 2px;
+  }

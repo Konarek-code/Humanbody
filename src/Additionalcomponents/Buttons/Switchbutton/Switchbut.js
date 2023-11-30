@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './Switchbuttonstyle.css';
 import Switch from '@mui/material/Switch';
 
 export default function Switchbut({ onSwitch }) {

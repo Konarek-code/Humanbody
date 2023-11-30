@@ -80,4 +80,6 @@ body {
   width: 100%;
 }
 
-
+.error-message{
+  color: #e73c3c;
+}

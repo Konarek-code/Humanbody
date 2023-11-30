@@ -1,0 +1,32 @@
+.redSwitch .MuiSwitch-track {
+    background-color: red;
+  }
+  
+  .redSwitch .MuiSwitch-thumb {
+    background-color: red;
+  }
+  
+  .redSwitch .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
+    background-color: red;
+  }
+  .ul-exercise{
+    height: 100%;
+  }
+
+  .header .switchcontainer p {
+    margin-top: 10px;
+    text-shadow: #0a0a0a;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .header .switchcontainer {
+    position: absolute;
+    top: 100px;
+    right: 31.7%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-shadow: #2e2e2e;
+    font-weight: bold;
+  }

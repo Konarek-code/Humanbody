@@ -1,29 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
-* {
-  font-family: 'Sora', sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 .App {
   display: flex;
   text-align: center;
   width: auto;
   height: calc(100vh - 110px);
 }
-.App-quizz{
-    display: flex;
-    text-align: center;
-    width: auto;
-    height: calc(100vh - 110px);
-    overflow-y: hidden;
-    overflow-x: hidden;
-    @media screen and (max-width: 768px) {
-      width: 100%;
-    }
-}
-
 .App-header{
   display: flex;
   text-align: center;
@@ -35,7 +16,6 @@
     width: 100%;
   }
 }
-
 .header {
   background-color: white;
   width: 100%;
@@ -45,102 +25,8 @@
   place-content: center;
 }
 
-.header .switchcontainer {
-  position: absolute;
-  top: 100px;
-  right: 31.7%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  text-shadow: #2e2e2e;
-  font-weight: bold;
-}
-
-.header .switchcontainer p {
-  margin-top: 10px;
-  text-shadow: #0a0a0a;
-  font-weight: bold;
-  font-size: 20px;
-}
-.error-message{
-  color: #e73c3c;
-}
-
 .imageback {
   border: 1px solid red;
-}
-.womanp{
-  position: relative;
-  margin-right: 15px;
-  margin-top: -50px;
-  width: 600px;
-  height: auto;
-}
-
-.body-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: calc(100vh - 110px);
-   overflow-y: hidden;
-    overflow-x: hidden;
-}
-
-.svg-container {
-  margin-top: -200px;
-  position: relative;
-  margin-left: 40px;
-  transform: scale(2);
-}
-
-.visible {
-  display: block;
-}
-
-footer {
-  background-color: #0e0202;
-  color: #be0101;
-  text-align: center;
-}
-
-.footer-content {
-  background-color: black;
-  display: flex;
-  color: #c9c9c2;
-  align-items:center;
-  justify-content: space-between;
-  border: 2px solid rgba(255, 0, 0, 0.356);
-  z-index: 10;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.footer-content p {
-  margin: 2px;
-}
-
-.hidden {
-  display: none;
-}
-.womanback{
-  position: relative;
-  margin-right: 25px;
-  margin-top: -20px;
-  width: 600px;
-  height: auto;
-}
-.backman{
-  position: relative;
-  margin-right: -10px;
-  margin-top: -50px;
-  width: 600px;
-  height: auto;
-}
-svg {
-  width: 100%;
-  height: auto;
 }
 
 .logos {
@@ -155,214 +41,17 @@ svg {
 .logos:hover{
   transform: scale(1.1);
 }
-
-.text-quizz {
-  color: rgb(0, 0, 0);
-}
-
 html,
 body {
   margin: 0;
   padding: 0;
 }
-.popupcontainer {
-  position: relative;
-}
-
 .button {
   text-align: center;
-}
-
-.question-card {
-  position: relative;
-  top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  width: 60%;
-  height: auto;
-  max-width: 600px; 
-  background-color: #e73c3c;
-  padding: 1%;
-  border-radius: 8px;
-  color: rgb(250, 250, 250);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2.5% 5% -1%,
-    rgba(0, 0, 0, 0.3) 0px 1.5% 3% -1.5%;
-
-  @media screen and (max-width: 768px) {
-    width: 100%;
-    height: 100%;
-    transform: scale(1.9);
-  }
-}
-.quizz-start{
-  @media screen and (max-width: 768px){
-    margin-top: 60%;
-}
-}
-
-.question-text {
-  position: relative;
-  color: rgb(0, 0, 0);
-  font-size: 1.7vw;
-  max-width: 100%;
-  overflow: hidden;
-  word-wrap: break-word;
-  @media screen and (max-width: 768px){
-  }
 }
 .nav-link{
   border:unset;
 }
 .nav-link:not(.nohover):hover {  
   background-color: #000000;
-}
-.final-results {
-  margin: 0 auto;
-  width: 50%;
-  height: 30%;
-  margin-top: 64px;
-  background-color: #d9d9d9;
-  padding: 16px;
-  border-radius: 16px;
-}
-.question-card h1 {
-  font-size: 2vw;
-}
-.info {
-  text-align: justify;
-}
-.leveltext {
-  text-align: center;
-}
-li.quizer {
-  width: 100%;
-  word-wrap: break-word;
-  margin-top: 1vw;
-  padding:5px;
-  background-color: #2e2e2e;
-  border: 3px solid #2e2e2e;
-  border-radius: 1vw;
-  font-size: 1.7vw;
-  list-style: none;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: rgba(199, 199, 206, 0.25) 0px 2.5% 5% -1%,
-    rgba(0, 0, 0, 0.3) 0px 1.5% 3% -1.5%;
-}
-li.quizer:hover {
-  background-color: #2e2e2ee7;
-  border-color: red;
-}
-ul.quizer {
-  margin: 0;
-  width: 100%;
-  ul {
-    list-style: none;
-  }
-}
-.hidden {
-  display: none;
-}
-.st0 {
-  fill: #9b9b9a;
-}
-.st0:hover {
-  fill: red;
-  transition: fill 0.3s;
-}
-
-svg {
-  pointer-events: none;
-}
-
-path {
-  pointer-events: auto;
-}
-polygon {
-  pointer-events: auto;
-}
-
-.rectangle3 {
-  background-color: #c9c9c2;
-  height: 100%;
-  width: 600px;
-  display: flex;
-  border-radius: 30px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 50px;
-  justify-content: space-between;
-  align-items: center;
-  @media screen and (max-width: 768px) {
-    width: 100vw;
-  }
-}
-
-.exercise-container {
-  position: absolute;
-  background-color: #ffffff;
-  top:15%;
-  left: 10%;
-  height: 125;
-  width: 300px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: -6;
-  @media screen and (max-width: 768px) {
-    top: 20%;
-    left: -1%;
-  }
-}
-
-.chosebar {
-  position: absolute;
-  top: 125px;
-  right: 175px;
-  margin: auto;
-  @media screen and (max-width: 768px){
-    left: 1%;
-    transform: scale(0.8);;
-}
-}
-
-.checkbut {
-  height: 60px;
-  border: 2px solid transparent;
-  transition: border 0.3s;
-}
-
-
-.rectangle3 p {
-  text-align: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  font-family: "Orbitron";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.8vh;
-}
-
-.charmander {
-  height: fit-content;
-  width: 40px;
-  margin-left: 20px;
-}
-
-.redSwitch .MuiSwitch-track {
-  background-color: red;
-}
-
-.redSwitch .MuiSwitch-thumb {
-  background-color: red;
-}
-
-.redSwitch .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track {
-  background-color: red;
-}
-.ul-exercise{
-  height: 100%;
 }

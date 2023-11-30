@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-import Switchbut from '../../Additionalcomponents/Buttons/Switchbut';
+import Switchbut from '../../Additionalcomponents/Buttons/Switchbutton/Switchbut';
 import { ReactComponent as Backman } from '../../images/backman.svg';
 import { ReactComponent as Bodymap } from '../../images/bodyman.svg';
 import { ReactComponent as Women } from '../../images/women.svg';
 import { ReactComponent as Womenp } from '../../images/womenp.svg';
-import '../../App.css';
+import './Bodypagestyle.css';
 
 function BodyComponent({ isWoman }) {
   const [isBodymap, setIsBodymap] = useState(true);

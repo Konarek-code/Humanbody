@@ -1,6 +1,6 @@
 import { Bars, Nav, NavMenu, NavLink, NavLinklogo } from './NavBarstyle';
 
-import Popup from '../../Additionalcomponents/Popup';
+import Popup from '../../Additionalcomponents/Popup/Popup';
 import logo from '../../images/redlogo1.png';
 import '../../App.css';
 const Navb = () => {

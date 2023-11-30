@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import '../../App.css';
+import './Quizzstyles.css';
 import questions from './Question';
 
 import charizard from '../../images/charizard.svg';
