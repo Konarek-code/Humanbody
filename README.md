@@ -46,4 +46,3 @@ The Interactive SVG Muscle Finder is a project that allows users to interactivel
 Damian Konarski
 =======
 # Humanbody
->>>>>>> 9d50d7633d267fc65dcb123b34f29b60fbf1de31
