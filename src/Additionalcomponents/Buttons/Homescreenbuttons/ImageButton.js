@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Box } from '@mui/material';
 
-import ImageButtonComponent from './ImageButton';
+import ImageButtonComponent from './ImageButtonstyle';
 
 import men from '../../../images/menelo.jpg';
 import women from '../../../images/womenelo.jpg';

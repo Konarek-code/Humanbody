@@ -1,20 +1,14 @@
-
+* {
+  font-family: 'Sora', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .App {
   display: flex;
   text-align: center;
   width: auto;
   height: calc(100vh - 110px);
-}
-.App-header{
-  display: flex;
-  text-align: center;
-  width: auto;
-  overflow-y: hidden;
-  overflow-x: hidden;
-  height: calc(100vh - 110px);
-  @media screen and (max-width: 768px) {
-    width: 100%;
-  }
 }
 .header {
   background-color: white;

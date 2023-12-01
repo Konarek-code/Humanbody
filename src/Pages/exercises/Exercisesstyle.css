@@ -1,4 +1,15 @@
 
+.App-header{
+  display: flex;
+  text-align: center;
+  width: auto;
+  overflow-x: hidden;
+  height: calc(100vh - 110px);
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
 .rectangle3 {
     background-color: #c9c9c2;
     height: 100%;
@@ -19,17 +30,18 @@
   .exercise-container {
     position: absolute;
     background-color: #ffffff;
-    top:15%;
+    top:8%;
     left: 10%;
-    height: 125;
+    height: 100%;
     width: 300px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: -6;
     @media screen and (max-width: 768px) {
       top: 20%;
-      left: -1%;
+      left: 0;
     }
   }
   
@@ -39,6 +51,8 @@
     right: 175px;
     margin: auto;
     @media screen and (max-width: 768px){
+      margin-top: 10px;
+      top:13%;
       left: 1%;
       transform: scale(0.8);;
   }
@@ -58,7 +72,12 @@
     font-family: "Orbitron";
     font-style: normal;
     font-weight: 600;
-    font-size: 1.8vh;
+    font-size: 2vh;
+    line-height: 5vh;
+    line-height: 1.5vw;
+    @media screen and (max-width: 768px) {
+      font-size: 2.5vh;
+    }
   }
   
   .charmander {

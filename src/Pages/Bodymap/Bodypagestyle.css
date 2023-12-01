@@ -8,7 +8,7 @@
   }
 
   .svg-container {
-    margin-top: -200px;
+    top:10;
     position: relative;
     margin-left: 40px;
     transform: scale(2);
