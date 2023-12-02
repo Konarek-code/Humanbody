@@ -12,14 +12,14 @@ const images = [
     url: men,
     title: 'Men',
     width: '50%',
-    link: 'Bodymap',
+    link: 'BodyMap',
     height: '100%'
   },
   {
     url: women,
     title: 'Woman',
     width: '50%',
-    link: 'Bodymapw',
+    link: 'BodyMapWoman',
     height: '100%'
   }
 ];
@@ -27,6 +27,7 @@ const images = [
 const Buttons = () => (
   <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
     {images.map(({ link, title, width, height, url }) => (
+      // why is this fragment here? totally useless. Why this component is mporting sth from `style`? Whyyyyy?????
       <React.Fragment key={title}>
         <ImageButtonComponent
           link={link}
