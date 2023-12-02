@@ -25,6 +25,7 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   border: 2px solid rgba(255, 0, 0, 0.356);
+  //what is this?
   padding: 0.5rem, calc((100vw -1000px) / 2);
   z-index: 10;
 `;
