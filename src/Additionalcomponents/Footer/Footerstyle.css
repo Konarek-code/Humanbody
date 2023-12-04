@@ -3,7 +3,8 @@ footer {
     color: #be0101;
     text-align: center;
   }
-  
+
+  /*same properties repeated, why footer is not in the <footer> tag?*/
   .footer-content {
     background-color: black;
     display: flex;

@@ -4,8 +4,7 @@ import Footer from './Additionalcomponents/Footer/Footer.js';
 import NavBar from './Additionalcomponents/Navbar/Navb.js';
 import './App.css';
 import Bmi from './Pages/Bmi/Bmi';
-import Bod from './Pages/Bodymap/Bodypage.js';
-import Bodw from './Pages/Bodymap/Bodypagewoman.js';
+import { BodyMap } from './Pages/BodyMap';
 import Abs from './Pages/exercises/Abs';
 import Abs1 from './Pages/exercises/Absw';
 import Back from './Pages/exercises/Back';
@@ -33,8 +32,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Bodymap" element={<Bod />} />
-        <Route path="/Bodymapw" element={<Bodw />} />
+        <Route path="/BodyMap" element={<BodyMap />} />
+        <Route path="/BodyMapWoman" element={<BodyMap isWoman />} />
         <Route path="/Bmi" element={<Bmi />} />
         <Route path="/lvlcheck" element={<Lvl />} />
         <Route path="/clavs1" element={<Clavs1 />} /> {/* man body part*/}

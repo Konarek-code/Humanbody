@@ -13,6 +13,11 @@
     height: 100%;
   }
 
+  .switchcontainer {
+    margin-top: 10px;
+    display: flex;
+  }
+
   .header .switchcontainer p {
     margin-top: 10px;
     text-shadow: #0a0a0a;
