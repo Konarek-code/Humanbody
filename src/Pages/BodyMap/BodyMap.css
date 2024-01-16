@@ -8,41 +8,39 @@
   }
 
   .svg-container {
-    margin-top: 90px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
   }
 
   .image {
-    /*PLEASE, select appropriate images. Once we have to scale it in the other case not, it's not a good solution*/
-    transform: scale(2);
+    position: relative;
     width: 600px;
-    /*margin wouldnt be needed if the image is cropped. Also the missalignment of the images when switching is because the badly selected images that are not aligned with each other*/
-    margin-top: 50px;
   }
-
-  .image-scale-regular {
-    transform: scale(1);
-  }
-
   .image svg {
     width: 100%;
     height: auto;
-    pointer-events: none;
+    z-index: 1;
   }
 
   .image svg path {
+    position: relative;
     pointer-events: auto;
   }
 
   .image svg polygon {
     pointer-events: auto;
   }
-
+  
   .st0 {
-    fill: #9b9b9a;
-  }
+    position: relative;
+    fill: #9B9494;
+    z-index: 2; /* Set an appropriate z-index for your paths */
+}
+
   .st0:hover {
     fill: red;
     transition: fill 0.3s;
   }
+  
+ 

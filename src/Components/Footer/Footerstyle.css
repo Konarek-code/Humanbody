@@ -1,27 +1,22 @@
 footer {
-    background-color: #0e0202;
-    color: #be0101;
-    text-align: center;
-  }
-
-  /*same properties repeated, why footer is not in the <footer> tag?*/
-  .footer-content {
     background-color: black;
+    text-align: center;
     display: flex;
     color: #c9c9c2;
     align-items: center;
     justify-content: space-between;
-    border: 2px solid rgba(255, 0, 0, 0.356);
+    border: 1px solid rgba(255, 0, 0, 0.356);
     z-index: 10;
     position: fixed;
     bottom: 0; 
     width: 100%; 
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
+    text-align: center;
   }
   
-  .footer-content p {
+  .footer p {
     margin: 2px;
+    text-align: center;
   }

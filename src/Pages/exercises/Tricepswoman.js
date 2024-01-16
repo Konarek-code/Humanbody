@@ -1,7 +1,7 @@
-import { tricepsItems } from './ExercisesItems';
+import { tricepsWomanItems } from './ExercisesItems';
 import ExerciseTemplate from './ExercisesTemplate';
 
-function Triceps() {
+function Tricepswoman() {
   return (
     <ExerciseTemplate
       allButtonsIds={[1, 2, 3, 4, 5, 6, 7, 8]}
@@ -9,9 +9,9 @@ function Triceps() {
       barButtonsIds={[5, 6]}
       othersButtonsIds={[4, 2]}
       bandButtonIds={[7, 8]}
-      items={tricepsItems}
+      items={tricepsWomanItems}
     />
   );
 }
 
-export default Triceps;
+export default Tricepswoman;

@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import './Quizzstyles.css';
 import questions from './Question';
 
-import charizard from '../../images/charizard.svg';
-import charmander from '../../images/charmanderlvl.png';
-import charmelon from '../../images/charmeleon.svg';
+import charizard from '../../Images/charizard.svg';
+import charmander from '../../Images/charmanderlvl.png';
+import charmelon from '../../Images/charmeleon.svg';
 
 const Quizcheck = () => {
   const [finalResult, setFinalResult] = useState(false);

@@ -1,16 +1,16 @@
-import { absItems } from './ExercisesItems.js';
+import { absWomanItems } from './ExercisesItems.js';
 import ExerciseTemplate from './ExercisesTemplate.js';
 
-function Abs1() {
+function Abswoman() {
   return (
     <ExerciseTemplate
       allButtonsIds={[1, 2, 3, 4, 5, 6]}
       dumbellButtonsIds={[4, 5]}
       bandButtonsIds={[1, 2]}
       barButtonsIds={[3]}
-      items={absItems}
+      items={absWomanItems}
     />
   );
 }
 
-export default Abs1;
+export default Abswoman;

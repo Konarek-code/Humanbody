@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 
 import { Modal, Box } from '@mui/material';
 
-import arrow from '../../images/arrow.png';
+import arrow from '../../Images/arrow.png';
 
 export default function Home() {
   const [displayPopUp, setDisplayPopUp] = useState(true);

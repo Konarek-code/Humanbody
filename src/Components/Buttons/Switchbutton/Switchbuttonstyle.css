@@ -35,3 +35,13 @@
     text-shadow: #2e2e2e;
     font-weight: bold;
   }
+
+  .labelContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .leftLabel,
+  .rightLabel {
+    margin: 0 8px;
+  }
